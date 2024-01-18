@@ -41,7 +41,7 @@ export default function Header() {
 
                     <li>
                         <Link to="/cart">
-                            Cart
+                            Cart1
                             {cart.totalCount > 0 && <span className={classes.cart_count}>{cart.totalCount}</span>}
                         </Link>
                     </li>
